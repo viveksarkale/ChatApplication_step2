@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ChatApplication</string>
+
+    <string name="tCompose">Compose</string>
+    <string name="tReadMessage">Read Message</string>
+    <string name="tSetting">Setting</string>
+    <string name="tContact">Contact</string>
+    <string name="tAddContact">Add Contact</string>
+</resources>

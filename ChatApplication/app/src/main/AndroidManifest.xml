@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="chat.application">
+
+    <application
+        android:name=".MyAppication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.ComposeActivity"
+            android:label="@string/tCompose"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".activity.SettingActivity"
+            android:label="@string/tSetting"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".activity.ReadMessageActivity"
+            android:label="@string/tReadMessage"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".activity.ContactActivity"
+            android:label="@string/tContact"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity
+            android:name=".activity.AddContactActivity"
+            android:label="@string/tAddContact"
+            android:windowSoftInputMode="stateHidden"/>
+    </application>
+
+</manifest>
